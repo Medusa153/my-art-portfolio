@@ -18,3 +18,8 @@ p {
   color: #f0efef;
   text-align: center;
 }
+
+.navbar-font {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
