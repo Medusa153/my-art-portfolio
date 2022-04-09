@@ -11,6 +11,9 @@ h3 {
   color: #f0efef;
   text-align: center;
 }
+h1 {
+  margin-top: 80px;
+}
 
 p {
   font-family: "Ubuntu Condensed", sans-serif;
