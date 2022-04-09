@@ -7,18 +7,22 @@ h1,
 h2,
 h3 {
   font-family: "Oswald", sans-serif;
-  font-weight: bold;
-
+  font-weight: 700;
   color: #f0efef;
   text-align: center;
 }
 h1 {
+  font-size: 96px;
   margin-top: 80px;
   padding-top: 30px;
   padding-bottom: 15px;
 }
 
+h2 {
+  font-size: 72px;
+}
 p {
+  font-size: 24px;
   font-family: "Ubuntu Condensed", sans-serif;
   font-weight: normal;
   color: #f0efef;
@@ -33,6 +37,7 @@ p {
 }
 
 .gallery-button {
+  font-size: 22px;
   background: #f0efef;
   padding: 15px 45px;
   border-radius: 50px;
