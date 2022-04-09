@@ -6,7 +6,6 @@
 body {
   margin: 100px 0;
   background-color: #010101;
-  display: block;
 }
 
 h1,
@@ -16,19 +15,18 @@ h3 {
   font-weight: 500;
   color: var(--secondary-color);
   text-align: center;
-   padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 h1 {
   font-size: 108px;
   padding-top: 30px;
- 
 }
 
 h2 {
   font-size: 72px;
-  opacity: 0.80;
-  padding
+  opacity: 0.8;
 }
+
 p {
   font-size: 24px;
   font-family: "Ubuntu Condensed", sans-serif;
@@ -36,12 +34,13 @@ p {
   color: #f0efef;
   text-align: center;
   margin-bottom: 30px;
-  opacity: 0.80;
+  opacity: 0.8;
   line-height: 1;
 }
 
 .navbar-font,
-.gallery-button {
+.gallery-button,
+.contact-button {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
 }
@@ -52,12 +51,31 @@ p {
   padding: 15px 45px;
   border-radius: 50px;
 }
+
+.about-me-paragraph {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-button {
+  font-size: 22px;
+  background: var(--primary-color);
+  padding: 15px 45px;
+  margin-top: 45px;
+  border-radius: 50px;
+}
+
+.about-me-heading {
+  color: var(--primary-color);
+}
+
 @media (max-width: 576px) {
   h1,
   h2 {
     font-size: 32px;
   }
   p {
-      font-size: 15px;
+    font-size: 15px;
   }
-
+}
