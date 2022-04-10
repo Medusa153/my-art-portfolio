@@ -80,14 +80,25 @@ p {
 }
 
 footer {
-  color: var(--primary-color);
+  margin: 60px 0;
 }
-
-.social-links {
-  text-align: center;
+footer .email-link {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  padding: 10px 15px;
+  font-size: 28px;
+}
+
+footer .social-link a:hoover {
+  cursor: pointer;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 576px) {
