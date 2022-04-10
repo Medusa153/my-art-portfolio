@@ -31,8 +31,7 @@ p {
   font-size: 24px;
   font-family: "Ubuntu Condensed", sans-serif;
   font-weight: normal;
-  color: #f0efef;
-  text-align: center;
+  color: var(--secondary-color);
   margin-bottom: 30px;
   opacity: 0.8;
   line-height: 1;
@@ -52,12 +51,6 @@ p {
   border-radius: 50px;
 }
 
-.about-me-paragraph {
-  text-align: start;
-  margin: 0;
-  padding: 0;
-}
-
 .contact-button {
   font-size: 22px;
   background: var(--primary-color);
@@ -66,8 +59,14 @@ p {
   border-radius: 50px;
 }
 
-.about-me-heading {
+.about-me-paragraph h1 {
   color: var(--primary-color);
+  text-align: start;
+  line-height: 0.8;
+}
+.about-me-paragraph h3 {
+  text-align: start;
+  line-height: 0.8;
 }
 
 @media (max-width: 576px) {
