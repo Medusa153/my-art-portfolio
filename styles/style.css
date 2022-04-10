@@ -79,6 +79,17 @@ p {
   color: var(--secondary-color);
 }
 
+footer {
+  color: var(--primary-color);
+}
+
+.social-links {
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
 @media (max-width: 576px) {
   h1,
   h2 {
