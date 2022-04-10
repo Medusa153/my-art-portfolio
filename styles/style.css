@@ -69,6 +69,16 @@ p {
   line-height: 0.8;
 }
 
+.links {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.links:hover {
+  cursor: crosshair;
+  color: var(--secondary-color);
+}
+
 @media (max-width: 576px) {
   h1,
   h2 {
