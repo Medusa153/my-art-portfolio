@@ -98,9 +98,9 @@ footer .social-links a {
   font-size: 20px;
 }
 
-footer .social-link:hover {
-  color: var(--primary-color);
-  cursor: pointer;
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  cursor: crosshair;
 }
 
 .contact {
