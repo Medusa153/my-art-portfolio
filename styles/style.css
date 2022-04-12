@@ -45,6 +45,10 @@ p {
   font-weight: bold;
 }
 
+.navbar-font a {
+  font-size: 26px;
+}
+
 .gallery-button {
   font-size: 22px;
   background: var(--primary-color);
