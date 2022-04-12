@@ -70,6 +70,11 @@ p {
   line-height: 0.8;
 }
 
+.gallery-header {
+  color: var(--primary-color);
+  margin-bottom: 90px;
+}
+
 .links {
   text-decoration: none;
   color: var(--primary-color);
