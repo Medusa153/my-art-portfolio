@@ -10,7 +10,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   color: var(--secondary-color);
@@ -33,7 +34,7 @@ p {
   font-weight: normal;
   color: var(--secondary-color);
   margin-bottom: 30px;
-  opacity: 0.8;
+  opacity: 0.95;
   line-height: 1;
 }
 
@@ -48,7 +49,6 @@ p {
   font-size: 22px;
   background: var(--primary-color);
   padding: 15px 45px;
-
   border-radius: 50px;
 }
 
@@ -80,7 +80,10 @@ p {
   color: var(--primary-color);
 }
 
-.links:hover {
+.links:hover,
+footer .social-links a:hover,
+.gallery-button:hover,
+.contact-button:hover {
   cursor: crosshair;
   color: var(--secondary-color);
 }
@@ -101,11 +104,6 @@ footer .social-links a {
   color: var(--primary-color);
   padding: 10px 15px;
   font-size: 20px;
-}
-
-footer .social-links a:hover {
-  color: var(--secondary-color);
-  cursor: crosshair;
 }
 
 .contact {
