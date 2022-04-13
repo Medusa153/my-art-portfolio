@@ -116,9 +116,9 @@ footer .social-links a {
 @media (max-width: 576px) {
   body h1,
   h2 {
-    font-size: 32px;
+    font-size: 34px;
   }
   p {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
